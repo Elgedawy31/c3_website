@@ -1,0 +1,43 @@
+.logos{
+    position: absolute;
+    width: 80%;
+    padding: 1rem 0;
+    z-index: 100;
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,.2);
+    bottom:-60px;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    background-color: #374660;
+}
+.logos img{
+    width: 120px;
+}
+@media screen and (max-width:1200px) {
+}
+@media (max-width:992px){
+    .logos{
+        bottom:-50px;
+    }
+    .logos img {
+        width: 80px;
+ 
+
+    }
+
+    
+}
+@media (max-width:768px){
+    .logos{
+        bottom:-30px;
+    }
+    .logos img {
+        width: 40px;
+    }
+
+    
+}

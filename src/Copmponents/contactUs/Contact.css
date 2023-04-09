@@ -1,0 +1,93 @@
+.section-p1{
+  padding: 60px 30px;
+}
+#from-details{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+#from-details form{
+
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+#from-details form h2{
+  padding:  20px 0;
+}
+#from-details form input{
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+#from-details form input:focus ,
+#from-details form textarea:focus{
+  outline: none;
+}
+#from-details form textarea{
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border: 1px solid #e1e1e1;
+  padding: 5px;
+}
+#from-details form button{
+  display: block;
+  background: #374660;
+  color: white;
+  font-size: 21px;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+}
+#from-details .pepole .box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#from-details .pepole .box img{
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#from-details .pepole .box .text h5{
+  margin: 8px 0;
+  color:rgba(250, 122, 18, 0.918)
+
+}
+
+.contact-head{
+  position: relative;
+}
+
+.contact-head::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -16px;
+  width: 6px;
+  height:40%;
+  background-color: rgba(250, 122, 18, 0.918)
+}
+
+
+@media (max-width:992px){
+  
+  #from-details form {
+    width: 100%;
+}
+.pepole{
+    display: none;
+  }
+}
